@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@custom-variant dark (&:where(.dark, .dark *));
 @import "tailwindcss";
-
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -12,12 +13,7 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+
 html {
   scroll-behavior: smooth;
 }
@@ -78,3 +74,8 @@ body {
   position: relative;
   z-index: 1;
 }
+.cursive-title {
+  font-family: 'Dancing Script', cursive;
+}
+
+

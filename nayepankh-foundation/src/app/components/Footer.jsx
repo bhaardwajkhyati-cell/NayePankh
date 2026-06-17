@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-zinc-950 text-white border-t border-orange-400/30">
+    <footer className="bg-gray-100 text-black dark:bg-zinc-950 dark:text-white transition-colors duration-300 border-t border-orange-400/30">
 
       {/* Contact Section */}
       <section id="contact" className="max-w-7xl mx-auto px-8 py-16">
@@ -9,7 +9,7 @@ export default function Footer() {
             Contact <span className="text-orange-400">Us</span>
           </h2>
 
-          <p className="mt-4 text-zinc-300">
+          <p className="mt-4 text-gray-700 dark:text-zinc-300">
             We'd love to hear from you. Reach out for volunteering,
             partnerships, internships, or general inquiries.
           </p>

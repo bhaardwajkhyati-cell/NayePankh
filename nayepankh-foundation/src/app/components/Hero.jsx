@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section id = "hero" className="bg-white text-black dark:bg-black dark:text-white px-8 pt-36 pb-20 transition-colors duration-300">
+    <section id = "hero" className="min-h-screen pt-32 md:pt-24 bg-white text-black dark:bg-black dark:text-white px-8 pt-36 pb-20 transition-colors duration-300">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16">
 
         {/* Left Side */}
@@ -25,8 +25,8 @@ export default function HeroSection() {
             care, empowering individuals to build a brighter future.
           </p>
 
-          <div className="flex flex-row flex-wrap gap-4">
-            <button className="bg-orange-400 text-black px-8 py-4 rounded-full font-semibold bg-orange-500 hover:scale-105 transition-all duration-300 ">
+          <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
+            <button className="w-full sm:w-auto bg-orange-400 text-black px-8 py-4 rounded-full font-semibold bg-orange-500 hover:scale-105 transition-all duration-300 ">
               Become a Volunteer
             </button>
 

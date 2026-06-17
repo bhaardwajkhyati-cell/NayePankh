@@ -17,29 +17,29 @@ return (
   
   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-orange-300/10 to-transparent animate-shimmer"></div>
 
-  <div className="relative flex justify-between items-center px-8 py-4">
+  <div className="relative flex justify-between items-center px-4 md:px-8 py-4">
     <span className="text-orange-400 font-bold text-2xl tracking-wide">
       NayePankh
     </span>
 
-    <div className="flex gap-8">
+    <div className="flex items-center gap-4 md:gap-8">
       <a
         href="#hero"
-        className="text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
+        className="text-sm md:text-base text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
       >
         Home
       </a>
 
       <a
         href="#about"
-        className="text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
+        className="text-sm md:text-base text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
       >
         About
       </a>
 
       <a
         href="#contact"
-        className="text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
+        className="text-sm md:text-base text-gray-700 dark:text-orange-200 hover:text-orange-400 transition duration-300"
       >
         Contact
       </a>

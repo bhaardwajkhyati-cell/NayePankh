@@ -3,7 +3,7 @@ export default function Footer() {
     <footer className="bg-gray-100 text-black dark:bg-zinc-950 dark:text-white transition-colors duration-300 border-t border-orange-400/30">
 
       {/* Contact Section */}
-      <section id="contact" className="max-w-7xl mx-auto px-8 py-16">
+      <section id="contact" className="max-w-7xl mx-auto p-6 md:p-8">
         <div className="mb-12 text-center">
           <h2 className="text-4xl font-bold">
             Contact <span className="text-orange-400">Us</span>

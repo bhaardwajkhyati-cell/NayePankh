@@ -25,7 +25,7 @@ export default function HeroSection() {
             care, empowering individuals to build a brighter future.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-4 items-center sm:items-start">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start items-center">
             <button className="w-full sm:w-auto bg-orange-400 text-black px-8 py-4 rounded-full font-semibold bg-orange-500 hover:scale-105 transition-all duration-300 ">
               Become a Volunteer
             </button>

@@ -37,7 +37,6 @@ export default function HeroSection() {
         </div>
 
         {/* Right Side */}
-        {/* Right Side */}
         <div className="relative w-[500px] h-[350px] rounded-3xl p-[3px] animated-border">
             <div className="relative w-full h-full bg-black rounded-3xl overflow-hidden">
                 <Image

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function HeroSection() {
   return (
-    <section id = "hero" className="min-h-screen pt-32 md:pt-24 bg-white text-black dark:bg-black dark:text-white px-8 pt-36 pb-20 transition-colors duration-300">
+    <section id = "hero" className="py-24 pt-32 md:pt-24 bg-white text-black dark:bg-black dark:text-white px-8 pt-36 pb-20 transition-colors duration-300">
       <div className="max-w-7xl mx-auto flex flex-col lg:flex-row items-center justify-between gap-16">
 
         {/* Left Side */}

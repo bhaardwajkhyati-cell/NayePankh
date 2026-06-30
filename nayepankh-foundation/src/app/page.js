@@ -9,11 +9,19 @@ import NextImage from 'next/image'
 export default function Home(){
   const [showSplash , setShowSplash] = useState(true)
   const [splashPhase, setSplashPhase] = useState('in')
+
   useEffect(() => {
     const fadeOut = setTimeout(() => setSplashPhase('out'), 6000)
     const hide = setTimeout(() => setShowSplash(false), 3000)
    return () => { clearTimeout(fadeOut); clearTimeout(hide) }
   }, [])
+
+  useEffect(() => {
+    if (!showSplash && window.location.hash) {
+      const el = document.getElementById(window.location.hash.slice(1))
+      el?.scrollIntoView({ behavior: 'smooth' })
+    }
+  }, [showSplash])
 
   if(showSplash){
     return(
